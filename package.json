@@ -1,0 +1,41 @@
+{
+  "name": "@libertyio/commitlint-config-type-enum",
+  "version": "1.0.0",
+  "description": "Shareable type enum for commitlint config with libertyio conventions",
+  "main": "dist/main.umd.js",
+  "module": "src/main",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --fix src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/libertyio/commitlint-config-type-enum-js.git"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "commitlint",
+    "commitlint-config"
+  ],
+  "author": "Mario Nebl <hello@herebecode.com> (https://github.com/marionebl)",
+  "contributors": [
+    "Jonathan Buhacoff <jonathan@liberty.io> (https://github.com/jbuhacoff)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libertyio/commitlint-config-type-enum-js/issues"
+  },
+  "homepage": "https://github.com/libertyio/commitlint-config-type-enum-js#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "husky": "^4.2.5",
+    "rollup": "^2.23.0"
+  }
+}
